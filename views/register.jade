@@ -1,0 +1,20 @@
+h2 Register
+- if ('undefined' !== typeof messages && messages.length)
+  ul#messages
+    - each message in messages
+      li.message= message
+form(action='/register', method='post')
+  #login
+    label(for='username') Username
+    input(type='text', name='username')
+  #email
+    label(for='email') Email
+    input(type='text', name='email')
+  #password
+    label(for='password') Password
+    input(type='password', name='password')
+  #passwordconfirmation
+    label(for='pwconf') Password Confirmation
+    input(type='password', name='pwconf')
+  #submit
+    input(type='submit') Register

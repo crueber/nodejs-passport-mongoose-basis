@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-passport-mongoose-basis",
+  "version": "0.0.1",
+  "private": true,
+  "repository": "git@bitbucket.org:crueber/nodejs-passport-mongoose-basis",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.3.1",
+    "stylus": "*",
+    "mongoose": "~3.6.15",
+    "jade": "~0.34.1",
+    "async": "~0.2.9",
+    "connect-assets": "2.5.0",
+    "passport": "~0.1.17",
+    "passport-local": "~0.1.6",
+    "bcrypt": "~0.7.6"
+  }
+}
