@@ -1,4 +1,4 @@
-var MONGO_DB = process.env['MONGO_DB'] || 'mongodb://localhost/altonimbus2'
+var MONGO_DB = process.env['MONGO_DB'] || 'mongodb://localhost/temporary'
 var ENV = process.env['NODE_ENV'] || 'development'
 var PORT = process.env['ALTONIMBUS_PORT'] || 4000
 
