@@ -1,6 +1,6 @@
 var MONGO_DB = process.env['MONGO_DB'] || 'mongodb://localhost/temporary'
 var ENV = process.env['NODE_ENV'] || 'development'
-var PORT = process.env['ALTONIMBUS_PORT'] || 4000
+var PORT = process.env['NODE_PORT'] || 4000
 
 /**
  * Module dependencies.
