@@ -1,14 +1,8 @@
+extends layout
 
 block body
-  h1 Welcome
-  - if (req.user)
-    p
-      a(href='/account') Your account
-      | &nbsp;|&nbsp;
-      a(href='/logout') Log Off
-  - else
-    p
-      a(href='/register') Register
-      | &nbsp;or&nbsp;
-      a(href='/login') Log in
-  
+  h3 index!
+  div 
+    | You are: 
+    = JSON.stringify(user)
+  div: a(href='/auth/logout') Log out
