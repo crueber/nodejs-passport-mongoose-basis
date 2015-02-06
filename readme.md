@@ -1,3 +1,15 @@
+
+# This repo is now defunct.
+
+If you're interested in a strong starter for MEAN applications, check out my [MEAN Coffee Starter](https://github.com/crueber/mean-coffee-starter). Even if you're not, that template is a great place to start building your node app from.
+
+**This repository has only been left for historical sake. It will not be updated further.**
+
+
+### This is a fairly simple basic set up for technologies mentioned in the name.
+
+# Old Notes
+
 ## Rewritten on March 19th, 2014.
 
 Why was it rewritten? Because I've learned a heck of a lot about NodeJS, Express, Mongoose, and Auth since I started writing NodeJS apps. This basic setup is the culmination of that knowledge.
